@@ -193,10 +193,10 @@ class FisheyeTrans():
 if __name__ == "__main__":
     ft = FisheyeTrans()
     
-#     in_img_path = "/raid/qc_perception/datasets/anonymizer_annotations/attempt13/WiderFace/val/images/0_Parade_marchingband_1_1004.jpg"
+#     in_img_path = "images/0_Parade_marchingband_1_1004.jpg"
     in_img_path = "out_test/cropped.jpg"
     cut_img = "Wider-360/Val/0--Parade/0_Parade_marchingband_1_1004_fisheye_1.jpg"
-    original = "/raid/qc_perception/anonymizer_annotations/attempt13/WiderFace/val/0_Parade_marchingband_1_1004.jpg"
+    original = "0_Parade_marchingband_1_1004.jpg"
     out_path = "out1.jpg"
     img = cv2.imread(in_img_path)
     print(img.shape)
