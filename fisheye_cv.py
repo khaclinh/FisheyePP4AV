@@ -184,8 +184,8 @@ def process(img_dir, output_dir, focal_length, file_types):
 if __name__ == "__main__":
     option = arg_parser()
     print(option)
-    img_dir = "/raid/qc_perception/datasets/anonymizer_annotations/attempt14/raw_img/"
-    out_dir = "/raid/qc_perception/datasets/anonymizer_annotations/attempt14/"
+    img_dir = "raw_img/"
+    out_dir = "trans_img/"
     img_extensions = option.image_extensions.split(',')
     focal_length = 100
     process(img_dir, out_dir, focal_length, img_extensions)
